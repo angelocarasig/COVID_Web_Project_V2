@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Yu Gothic', 'Roboto', 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    }
+
+header h1 {
+    text-align: center;
+    font-size: 64px;
+    margin: 0;
+    padding: 5px 0px;
+    color:midnightblue;
+    background-color: white;            
+}
+
+.test123 {
+    position: relative;
+    width: 75px;
+    height: auto;
+    background-color:aqua;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}

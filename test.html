@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        p {
+  font-family: Arial, Times, serif;
+}
+ul {
+  list-style-type: none;
+  font-family: Arial, Times, serif;
+  margin: 10;
+  padding: 0;
+  background-color: #555555;
+  text-decoration: none;
+  /* remove comment below to see effect*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* Full width */
+}
+li {
+  float: left;
+}
+/* Add a gray right border to all list items, except the last item (last-    child) */
+
+li {
+  border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+  border-right: none;
+}
+/* Add an ''active'' to current link to know user which page he is on */
+
+li a.active {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #4CAF50
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+</head>
+
+<body>
+<ul>
+    <li class="dropdown">
+      <a class="active" href="javascript:void(0)">Startpages</a>
+      <div class="dropdown-content">
+        <a class="active" href="#">Home</a>
+        <a href="#">Afdeling A</a>
+        <a href="#">Afdeling B</a>
+        <a href="#">Afdeling C</a>
+        <a href="#">Afdeling D</a>
+        <a href="#">Afdeling E</a>
+        <a href="#">Afdeling F</a>
+        <a href="#">Afdeling G</a>
+        <a href="#">Afdeling H</a>
+        <a href="#">Afdeling I</a>
+      </div>
+    </li>
+</ul>
+
+<font size="3"></font>
+<p>&nbsp;</p>
+<table bordercolor="" border="0" cellspacing="10" cellpadding="2">
+  <tbody>
+    <tr>
+      <td><font color="#555555" face="Arial" size="4"><b>Home</b></font>
+      </td>
+    </tr>
+    <tr>
+      <td><font face="Arial" size="2"><i>Quick ...</i></font>
+      </td>
+    </tr>
+    <tr>
+      <td><font face="Arial" size="2">Absence</font>
+      </td </tr>
+      <tr>
+        <td><font face="Arial" size="2">Phonelist</font>
+        </td>
+      </tr>
+      <tr>
+        <td><font face="Arial"> </font>
+        </td>
+      </tr>
+      <tr>
+        <td><font face="Arial"> </font>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</body>

@@ -1,0 +1,79 @@
+
+/* Navigation Bar*/
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    z-index: 1;
+}
+
+/* Moves buttons to left */
+nav ul {
+    float: left;
+    padding: 0px 15px 15px 15px;
+}
+
+/* Keeps UL on left, removes bullet points for each list ele, allows hover elements to be absolute, below the current list ele*/
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 125px;
+    z-index: 1;
+}
+
+/* Most buttons on a nav bar are links to another page, can change a to other things like a <p> or <h*> ele */
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 24px;
+    padding: 5px 5px;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Hover elements | Initially not displayed (needs to be hovered), position references its parent ele allowing for each ele to stay below said parent */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px 5px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li ul a {
+    text-align: left;
+}
+
+/* Hovers over list ele to display the ul ele inside */
+nav ul li:hover ul {
+    display: block;
+}
+
+/* Keeps hover elements the same size (so as to not overflow links with text that would usually be 2 lines long) */
+nav ul li ul li {
+    width: 200px;
+}
+
+
+/* Border-radius sets hover to squircle/circle shape depending on intensity */
+nav ul li ul li a:hover, nav ul li:hover {
+    background-color:lightgreen;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/*Sticky components*/
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
