@@ -1,22 +1,45 @@
+.maininfo {
+    background-color: beige;
+    padding: 15px 15px 30px 15px;
+}
+
 h1 {
     display: block;
     position:relative;
     text-align: center;
-    background-color:beige;
     height: auto;
     width: auto;
 }
 
+/* Unedit the border comments to see borders*/
+
 table {
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
+    /*border: 1px solid black;*/
+    border-collapse: separate;
+    border-spacing: 15px;
 }
 
 table tr {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 table tr td {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    padding: 30px 0px;
+}
+
+table tr td img {
+    width: 100px;
+    height: auto;
+    padding-right: 15px;
+} 
+
+.information {
+    text-align: left;
+    width: 100%;
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 32px;
+    margin: 15px;
 }
