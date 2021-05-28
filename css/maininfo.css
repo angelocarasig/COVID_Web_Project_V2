@@ -1,0 +1,22 @@
+h1 {
+    display: block;
+    position:relative;
+    text-align: center;
+    background-color:beige;
+    height: auto;
+    width: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table tr td {
+    border: 1px solid black;
+}
