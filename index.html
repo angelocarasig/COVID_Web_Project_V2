@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/navbar.css"/>
     <link rel="stylesheet" href="css/slideshow.css"/>
     <link rel="stylesheet" href="css/maininfo.css"/>
+    <link rel="stylesheet" href="css/charts.css">
+
     
 </head>
 
@@ -82,7 +84,6 @@
                 <td class="information">
                     Information 1a
                 </td>
-                </div>
             </tr>
             <tr>
                 <td>
@@ -104,10 +105,8 @@
 
     </div>
 
-    <!--testing margin properties here | css in mainstyles.css-->
-    <!--<div class="test123">
-        test
-    </div>-->
+
+    <br>
 
 
     <div class="content">
@@ -122,60 +121,10 @@
         <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
       </div>
 
+    <!--Do not move from body, breaks if done so-->
+    <script src="scripts/navbar.js"></script>
 
-    <!--Navbar-->
-    <script>
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {myFunction()};
-
-        // Get the navbar
-        var navbar = document.getElementById("navbar");
-
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-        }
-    </script>
-
-    <!--Slideshow-->
-    <script>
-    //slideshow js
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            }
-    </script>
+    <script src="scripts/slidedshow.js"></script>
 </body>
 
 </html>

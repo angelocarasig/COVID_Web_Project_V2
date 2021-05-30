@@ -77,3 +77,14 @@ nav ul li ul li a:hover, nav ul li:hover {
   .sticky + .content {
     padding-top: 60px;
   }
+
+  /* Hide the link that should open and close the topnav on small screens */
+    nav ul li .icon {
+        display: none;
+    }
+
+  @media (max-width: 675px) {
+      nav ul li a {
+          opacity: 50%;
+      }
+  }

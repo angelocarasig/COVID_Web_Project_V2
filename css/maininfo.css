@@ -13,28 +13,24 @@ h1 {
 
 /* Unedit the border comments to see borders*/
 
-table {
+.maininfo table {
     /*border: 1px solid black;*/
     border-collapse: separate;
     border-spacing: 15px;
 }
 
-table tr {
-    /*border: 1px solid black;*/
-}
-
-table tr td {
+.maininfo table tr td {
     /*border: 1px solid black;*/
     padding: 30px 0px;
 }
 
-table tr td img {
+.maininfo table tr td img {
     width: 100px;
     height: auto;
     padding-right: 15px;
 } 
 
-.information {
+.maininfo .information {
     text-align: left;
     width: 100%;
     background-color: cadetblue;
