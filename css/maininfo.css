@@ -1,5 +1,5 @@
 .maininfo {
-    background-color: beige;
+    background-color:darkgrey;
     padding: 15px 15px 30px 15px;
 }
 
@@ -14,13 +14,13 @@ h1 {
 /* Unedit the border comments to see borders*/
 
 .maininfo table {
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
     border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 50px;
 }
 
 .maininfo table tr td {
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
     padding: 30px 0px;
 }
 
@@ -33,9 +33,9 @@ h1 {
 .maininfo .information {
     text-align: left;
     width: 100%;
-    background-color: cadetblue;
+    background-color: aliceblue;
     border-radius: 15px;
     padding-left: 15px;
     font-size: 32px;
-    margin: 15px;
+    margin: 5px;
 }
