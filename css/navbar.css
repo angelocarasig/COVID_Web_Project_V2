@@ -18,7 +18,7 @@ nav ul li {
     float: left;
     list-style: none;
     position: relative;
-    width: 125px;
+    width: 250px;
     z-index: 1;
 }
 
@@ -71,13 +71,8 @@ nav ul li ul li a:hover, nav ul li:hover {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
     padding-top: 60px;
   }
-
   /* Hide the link that should open and close the topnav on small screens */
     nav ul li .icon {
         display: none;
