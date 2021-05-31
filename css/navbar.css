@@ -53,7 +53,7 @@ nav ul li:hover ul {
 
 /* Keeps hover elements the same size (so as to not overflow links with text that would usually be 2 lines long) */
 nav ul li ul li {
-    width: 200px;
+    width: 250px;
 }
 
 
