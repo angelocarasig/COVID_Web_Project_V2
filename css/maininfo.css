@@ -1,6 +1,6 @@
 .maininfo {
-    background-color:darkgrey;
-    padding: 15px 15px 30px 15px;
+    background-color: beige;
+    height: 900px;
 }
 
 h1 {
@@ -9,33 +9,31 @@ h1 {
     text-align: center;
     height: auto;
     width: auto;
+    padding: 20px 0px;
 }
 
-/* Unedit the border comments to see borders*/
+/* Unedit the border comments to see borders */
 
 .maininfo table {
     /* border: 1px solid black; */
     border-collapse: separate;
-    border-spacing: 50px;
+    border-spacing: 0 70px;
 }
 
 .maininfo table tr td {
-    /* border: 1px solid black; */
-    padding: 30px 0px;
+    /* border: 1px solid black;  */
+    padding: 0px 10px;
 }
 
 .maininfo table tr td img {
     width: 100px;
     height: auto;
-    padding-right: 15px;
 } 
 
 .maininfo .information {
     text-align: left;
     width: 100%;
-    background-color: aliceblue;
+    background-color: lightgray;
     border-radius: 15px;
-    padding-left: 15px;
     font-size: 32px;
-    margin: 5px;
 }
