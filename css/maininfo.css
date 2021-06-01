@@ -1,5 +1,6 @@
 .maininfo {
     background-color: beige;
+    height: auto;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 
 .maininfo table tr td {
     /* border: 1px solid black;  */
-    padding: 0px 10px;
+    padding: 24px 10px;
 }
 
 .maininfo table tr td img {
