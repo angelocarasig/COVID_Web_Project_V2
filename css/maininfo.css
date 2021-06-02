@@ -3,7 +3,7 @@
     height: auto;
 }
 
-h1 {
+.maininfo h1 {
     display: block;
     position:relative;
     text-align: center;

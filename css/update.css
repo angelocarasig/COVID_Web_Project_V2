@@ -2,6 +2,15 @@
     background-color: azure;
 }
 
+.update h1 {
+    display: block;
+    position:relative;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 20px 0px;
+}
+
 .update table {
     border-collapse: collapse;
     margin-top: 15px;
