@@ -1,0 +1,24 @@
+.update {
+    background-color: azure;
+}
+
+.update table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.update thead {
+    font-size: 28px;
+}
+
+.update tbody {
+    font-size: 23px;
+}
+
+.update table tr td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 15px;
+}

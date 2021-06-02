@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/slideshow.css"/>
     <link rel="stylesheet" href="css/maininfo.css"/>
     <link rel="stylesheet" href="css/charts.css">
+    <link rel="stylesheet" href="css/update.css">
 </head>
 
 <body>
@@ -100,20 +101,39 @@
     </div>
 
     <br>
+    
+    <div class="update">
+        <h1>Lastest Update</h1>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <td><b>Country</b></td>
+                    <td><b>New Infection</b></td>
+                    <td><b>New Death</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example Country</td>
+                    <td>+50,000</td>
+                    <td>+200</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
+    <br>
     <!--
     <div style="width: 75%;  height: auto; margin: 0 auto;">
     <div class="container"></div>
     <canvas id="lineChart"></canvas>
     </div>
     -->
-
     <script src="scripts/chart.js"></script>
     <script src="scripts/linechart.js"></script>
 
     <!--Do not move from body, breaks if done so-->
-
-
     <script src="scripts/slidedshow.js"></script>
     <script src="scripts/navbar.js"></script>
 </body>
