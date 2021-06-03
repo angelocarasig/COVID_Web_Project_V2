@@ -12,6 +12,16 @@
     padding: 20px 0px;
 }
 
+.title h1 {
+    display: block;
+    position:relative;
+    text-align: center;
+    background-color:aliceblue;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+}
+
 /* Unedit the border comments to see borders */
 
 .maininfo table {

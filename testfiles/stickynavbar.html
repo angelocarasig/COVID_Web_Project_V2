@@ -2,7 +2,6 @@
 
 <head>
     <style>
-
         body {
             background-color: aliceblue;
             font-family: 'Yu Gothic', 'Roboto', 'Times New Roman';
@@ -15,6 +14,7 @@
             width: 100%;
             height: 80px;
             background-color: #333;
+            overflow: hidden;
             z-index: 1;
         }
 
@@ -74,31 +74,23 @@
             border-radius: 8px;
             transition: background-color 0.3s ease;
         }
+
+        .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+        .sticky + .content {
+        padding-top: 60px;
+        }
     </style>
+
 </head>
 
 <body>
 
-    <script>
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {myFunction()};
-
-        // Get the navbar
-        var navbar = document.getElementById("navbar");
-
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-        }
-
-    </script>
+    <h1>Test</h1>
 
     <div class="navbar" id="navbar">
         <ul>
@@ -112,7 +104,6 @@
             </li>
         </ul>
     </div>
-
 
 
     <div class="content">
@@ -147,5 +138,30 @@
         <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
       </div>
+
+      <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+<script>
+window.onload = function() {document.body.scrollTop = document.documentElement.scrollTop = 0;};
+</script>
 
 </body>
