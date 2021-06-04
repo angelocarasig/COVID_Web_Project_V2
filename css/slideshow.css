@@ -1,6 +1,6 @@
 .slideshowbg {
     width: 100%;
-    height: 625px;
+    height: 585px;
     background-color:grey;
     padding: 50px;
 }
@@ -15,7 +15,6 @@
   height: auto;
   position: relative;
   margin: auto;
-  padding-top: 50px;
 }
 
 /* Hide the images by default */
@@ -84,7 +83,7 @@
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  transform: translate(0, -15px);
+  transform: translate(0, 0px);
   display: inline-block;
   transition: background-color 0.6s ease;
 }
